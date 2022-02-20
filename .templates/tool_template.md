@@ -1,12 +1,10 @@
 # Title 
 ------------------------------------------------------------------
 ------------------------------------------------------------------
-## Examples
-
-**Basic Syntax:**
+## **Basic Syntax:**  
 
 
-**Full Syntax:**
+## **Full Syntax:**  
 
 
-**Syntax Breakdown:**
+## **Syntax Breakdown:**  
