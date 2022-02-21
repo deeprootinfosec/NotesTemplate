@@ -19,7 +19,7 @@ tool <name> - creates a tool file in your ~/notes/tools/ directory with the spec
 
 ttp <name> - creates a ttp file in your ~/notes/ttps/ directory with the specified name. 
 
-toolbox <name> - searches tools & ttps for the specified name and prints the contents of the note to the screen. 
+toolbox <name> - lists all of the notes in tools and ttps. 
 
 ## Cron Job:
 
