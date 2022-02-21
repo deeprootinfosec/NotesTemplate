@@ -27,27 +27,27 @@ A cron job will be created to automatically push your changes back to your repo 
  
 ## Note Organization:
  
-abstract.md - this is your official report or summary of events. 
-artifacts - houses all of your screenshots, scan output, scripts, etc.  
-enumeration - houses a summary of your findings for each enumeration step. 
-exploitation - houses a detailed writeup of your actions for each exploitation step.
-loot.md - this file contains usernames, passwords, keys, tokens, etc. 
+abstract.md - this is your official report or summary of events.  
+artifacts - houses all of your screenshots, scan output, scripts, etc.   
+enumeration - houses a summary of your findings for each enumeration step.  
+exploitation - houses a detailed writeup of your actions for each exploitation step. 
+loot.md - this file contains usernames, passwords, keys, tokens, etc.  
  
 ## Organizing on the fly - Example:
  
-**abstract.md** - add your title, intro, scope, given information, etc. 
-**artifacts** - pipe your initial nmap scan, osint, and other objects into this folder
-**enumeration** - add details to **aEnumeration_NMAP.md**
-**exploitation** - add details to **aExploitation_Initial.md**
-**artifacts** - copy exploit script and reverse shell script into this folder
-**loot.md** - add discovered password hashes and potential usernames
-**artifacts** - pipe in enumeration scan results 
-**enumeration** - add details to **bEnumeration_Scan.md**
-**exploitation** - add details to **bExploitation_Cracking.md**
-**loot.md** - add cracked passwords and proof
-**artifacts** - pipe in authenticated enumeration scan
-**enumeration** - add details to **cEnumeration_UserScan.md**
-...
+**abstract.md** - add your title, intro, scope, given information, etc.  
+**artifacts** - pipe your initial nmap scan, osint, and other objects into this folder 
+**enumeration** - add details to **aEnumeration_NMAP.md**  
+**exploitation** - add details to **aExploitation_Initial.md**  
+**artifacts** - copy exploit script and reverse shell script into this folder  
+**loot.md** - add discovered password hashes and potential usernames  
+**artifacts** - pipe in enumeration scan results  
+**enumeration** - add details to **bEnumeration_Scan.md**  
+**exploitation** - add details to **bExploitation_Cracking.md**  
+**loot.md** - add cracked passwords and proof  
+**artifacts** - pipe in authenticated enumeration scan  
+**enumeration** - add details to **cEnumeration_UserScan.md**  
+...  
 so on and so forth until you are done. 
 
  
