@@ -7,7 +7,7 @@ Import your SSH key into GitHub and fork this repository over to your account. O
 
 ## Setup Script:
 
-Add execute permissions with ```chmod +x ./setup.sh``` and run the script as yourself. You will need to pass in the URL for your NotesTemplate fork. I recommend renaming the repository before this step to whatever you want it to be. 
+Add execute permissions to git_push.sh and setup.sh with ```chmod +x ./file_name.sh``` and run the script as yourself. It will ask for your username and the name of your fork of this repository. I recommend renaming the repository before this step to whatever you want it to be. Locally the repositiry will be housed in a folder named 'notes'.
 
 ## Functions:
  
@@ -23,4 +23,4 @@ toolbox <name> - searches tools & ttps for the specified name and prints the con
 
 ## Cron Job:
 
-A cron job will be created to automatically push your changes back to your repo every 15 minutes. I recommend double checking this the first few times to make sure it is working. 
+A cron job will be created to automatically push your changes back to your repo every 5 minutes. I recommend double checking this the first few times to make sure it is working correctly. You can get a log of the output by adding ```>> ~/git_cron.log``` to the command in your crontab. 
