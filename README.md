@@ -30,7 +30,7 @@ A cron job will be created to automatically push your changes back to your repo 
 abstract.md - this is your official report or summary of events.  
 artifacts - houses all of your screenshots, scan output, scripts, etc.   
 enumeration - houses a summary of your findings for each enumeration step.  
-exploitation - houses a detailed writeup of your actions for each exploitation step. 
+exploitation - houses a detailed writeup of your actions for each exploitation step.  
 loot.md - this file contains usernames, passwords, keys, tokens, etc.  
  
 ## Organizing on the fly - Example:
